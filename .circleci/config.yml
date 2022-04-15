@@ -19,7 +19,7 @@ jobs:
           command: npx playwright test
 
       - store_test_results:
-          path: test-results.json
+          path: results.xml
 
       - store_artifacts:
           path: test-results

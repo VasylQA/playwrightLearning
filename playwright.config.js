@@ -10,7 +10,7 @@ const config = {
 
   reporter: [
     ['list'],
-    ['json', {  outputFile: 'test-results.json' }]
+    ['junit', { outputFile: 'results.xml' }]
   ],
 };
 
