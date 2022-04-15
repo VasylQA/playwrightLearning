@@ -8,7 +8,7 @@ test.describe('Upload file', () => {
 
 
     const apiRequest = await request.get(`https://reqres.in/api/users/2`);
-    console.log(await apiRequest.json())
+  //  console.log(await apiRequest.json())
 
 
     /*
