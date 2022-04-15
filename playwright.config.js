@@ -2,7 +2,8 @@ const config = {
   timeout: 90000,
   use: {
     trace: 'on-first-retry',
-    storageState: 'storageState.json'
+    storageState: 'storageState.json',
+    headless: true
   },
 };
 
