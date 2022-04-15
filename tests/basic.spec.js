@@ -8,6 +8,7 @@ test.describe('Login tests', () => {
     await page.goto('https://magento2-demo.magebit.com/customer/account');
     await page.waitForTimeout(5000);
 
+    await page.goto('https://magento2-demo.magebit.com/customer/account');
 
     /*
     await page.goto('https://magento2-demo.magebit.com/customer/account/login/');
