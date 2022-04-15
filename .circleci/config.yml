@@ -18,5 +18,8 @@ jobs:
           name: Run tests
           command: npx playwright test
 
+      - store_test_results:
+          path: test-results.json
+
       - store_artifacts:
           path: test-results
