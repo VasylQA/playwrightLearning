@@ -7,6 +7,11 @@ const config = {
     video: 'retain-on-failure',
     screenshot: 'only-on-failure'
   },
+
+  reporter: [
+    ['list'],
+    ['json', {  outputFile: 'test-results.json' }]
+  ],
 };
 
 module.exports = config;
