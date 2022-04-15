@@ -3,7 +3,9 @@ const config = {
   use: {
     trace: 'on-first-retry',
     storageState: 'storageState.json',
-    headless: true
+    headless: true,
+    video: 'retain-on-failure',
+    screenshot: 'only-on-failure'
   },
 };
 
