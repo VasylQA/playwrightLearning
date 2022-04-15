@@ -9,7 +9,7 @@ const config = {
   },
 
   reporter: [
-    ['list'],
+    ['Line'],
     ['junit', { outputFile: 'results.xml' }]
   ],
 };
