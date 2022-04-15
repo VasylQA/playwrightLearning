@@ -1,0 +1,15 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: mcr.microsoft.com/playwright:v1.21.0-focal
+
+    steps:
+      - checkout
+      - run:
+          name: Install deps
+          command: npm install
+
+      - run:
+          name: Run tests
+          command: npx playwright test basic.spec.js
