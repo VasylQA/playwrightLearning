@@ -16,4 +16,4 @@ jobs:
 
       - run:
           name: Run tests
-          command: npx playwright test basic.spec.js
+          command: npx playwright test
